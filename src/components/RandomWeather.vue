@@ -33,7 +33,7 @@ export default {
     async fetchWeather() {
       try {
         this.loading = true;
-        const apiKey = '6cb6bcbd37a507545af584133dea510f'; // Replace with your actual API key
+        const apiKey = ''; // Replace with your actual API key
 
         // Function to generate random coordinates
         const getRandomCoordinates = () => {
