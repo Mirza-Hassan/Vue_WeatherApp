@@ -39,7 +39,7 @@
     async searchWeather() {
       try {
         this.loading = true;
-        const apiKey = '6cb6bcbd37a507545af584133dea510f'; // Replace with your actual API key
+        const apiKey = ''; // Replace with your actual API key
 
         // Check if weather data is already cached
         const cachedData = localStorage.getItem(this.city);
